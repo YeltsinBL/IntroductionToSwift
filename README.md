@@ -42,3 +42,11 @@
 - En las clases de debe de inicializar para dar un valor a todas las propiedades cuando las instanciamos, en cambio; en la estructura no se debe de inicializar porque el compilador de swift lo crea por si mismo.
 - En la clase se puede utilizar el 'deInit' que se utiliza para liberar recursos en memoria, mientras que en la estructura no se puede.
 - Las clases y estructuras utilizan las propiedades, instancias, métodos, extensiones y protocolos.
+
+`Propiedades`: asocian valores con una class, enum y struct
+- Instancia: Para utilizar esta propiedad, primero se debe de instanciar y luego asignar un valor.
+- Tipo (static): no se debe de instanciar para utilizar.
+- Computadas: no almacenan un valor, actuán de getter and setter.
+- Observers: observa y responde cada que un valor de la propiedad cambia.
+-- WillSet: antes que el valor de la propiedad cambie.
+-- Didset: cuando el valor de la propiedad a cambiado.

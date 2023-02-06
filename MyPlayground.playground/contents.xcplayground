@@ -7,5 +7,6 @@
         <page name='Flujo de control'/>
         <page name='Funciones'/>
         <page name='Clases y Estructura'/>
+        <page name='Propiedades'/>
     </pages>
 </playground>
