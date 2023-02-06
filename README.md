@@ -25,3 +25,11 @@
 - For-in: se utiliza dentro de una secuencia como los elementos del array y diccionario, y los caracteres de un String.
 - While: empieza evaluando una condición; si la condición es true, la ejecuta el código hasta que la condición sea false.
 -- También esta el 'repeat while' que ejecuta el código y luego evalúa la condición hasta que sea false.
+
+`Funciones`: están compuestas por líneas de código que hacen una tarea especifica, agrupamos código para utilizarla en la ejecución de la app y realizar una lógica o acción.
+- Podemos retornar dos valores en la función y agregarlas a una Tupla, que almacena valores en una o más variable.
+- Los parámetros:
+-- Si el parámetro de la función tiene dos nombres, el primer nombre se utiliza fuera de la función y el segundo nombre se utiliza dentro de la función.
+-- Para utilizar las funciones sin escribir el nombre de los parámetros, en la creación de la función se debe poner un [_] antes del nombre del parámetro (_ nameParameter: Type).
+-- El parámetro Variadic es como si se enviara un array, acepta varios valores del mismo tipo (name: String...), los tres puntos al final significa que recibirá varios datos.
+-- Se puede actualizar los valores del parámetro, se debe agregar un 'inout' antes del tipo del parámetro y cuando se llame a la función se agregara un '&' antes del valor del parámetro.
