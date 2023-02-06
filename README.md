@@ -15,3 +15,13 @@
 - Set: nos aseguramos que los valores no sean repetidos pero el orden puede variar.
 - Dictionary: almacenan asociaciones entre keys del mismo tipo y valores del mismo tipo, no tienen un orden en las posiciones.
 -- Cuando pedimos el valor de un Dictionary este es de tipo opcional porque puede ser que el valor del elemento sea nil o que la key ingresada no exista.
+
+`Flujo de control`:
+- IF: acepta los operadores relacionales y lógicos, el operador lógico '&&' se puede reemplazar por la ',' dentro de la condición.
+- Guard: es un early return:
+-- Nos ayudan a salir del ‘scope’ cuando no se cumple una condición, son muy parecidos a al IF.
+-- También podemos extraer el valor de un opcional como se hace con el 'if let'.
+- Switch: cuando tenemos un valor y los comparamos con distintos casos, si no cumple con alguno se ejecuta un caso por defecto.
+- For-in: se utiliza dentro de una secuencia como los elementos del array y diccionario, y los caracteres de un String.
+- While: empieza evaluando una condición; si la condición es true, la ejecuta el código hasta que la condición sea false.
+-- También esta el 'repeat while' que ejecuta el código y luego evalúa la condición hasta que sea false.

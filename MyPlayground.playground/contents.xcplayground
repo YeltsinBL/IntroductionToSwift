@@ -4,5 +4,6 @@
         <page name='Constantes y Variables'/>
         <page name='Opcionales'/>
         <page name='Colecciones'/>
+        <page name='Flujo de control'/>
     </pages>
 </playground>
