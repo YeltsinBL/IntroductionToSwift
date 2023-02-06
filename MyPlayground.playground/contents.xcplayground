@@ -6,5 +6,6 @@
         <page name='Colecciones'/>
         <page name='Flujo de control'/>
         <page name='Funciones'/>
+        <page name='Clases y Estructura'/>
     </pages>
 </playground>

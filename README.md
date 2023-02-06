@@ -33,3 +33,12 @@
 -- Para utilizar las funciones sin escribir el nombre de los parámetros, en la creación de la función se debe poner un [_] antes del nombre del parámetro (_ nameParameter: Type).
 -- El parámetro Variadic es como si se enviara un array, acepta varios valores del mismo tipo (name: String...), los tres puntos al final significa que recibirá varios datos.
 -- Se puede actualizar los valores del parámetro, se debe agregar un 'inout' antes del tipo del parámetro y cuando se llame a la función se agregara un '&' antes del valor del parámetro.
+
+`Clases y Estructura`: class and struct
+- Las clases pueden tener herencia mientras que las estructuras no.
+- Las clases son 'ReferenceType' y las estructuras son 'ValueType'
+--ValueType: es un tipo cuyo valor se copia cuando es asignado a una variable o constante, o cuando lo pasamos a una función. Los struct y los enum son ValueType.
+-- ReferenceType: cuando tenemos una instancia de una clase y la asignamos a varias variables, cada variable apunta a la misma referencia en memoria: un cambio en una variable repercute en las demás variables porque todas apuntan a la misma referencia en memoria.
+- En las clases de debe de inicializar para dar un valor a todas las propiedades cuando las instanciamos, en cambio; en la estructura no se debe de inicializar porque el compilador de swift lo crea por si mismo.
+- En la clase se puede utilizar el 'deInit' que se utiliza para liberar recursos en memoria, mientras que en la estructura no se puede.
+- Las clases y estructuras utilizan las propiedades, instancias, métodos, extensiones y protocolos.
