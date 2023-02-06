@@ -3,5 +3,6 @@
     <pages>
         <page name='Constantes y Variables'/>
         <page name='Opcionales'/>
+        <page name='Colecciones'/>
     </pages>
 </playground>

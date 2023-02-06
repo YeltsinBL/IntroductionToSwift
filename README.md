@@ -9,3 +9,9 @@
 `Opcionales`:
 - se pueden crear variables y/o constantes de tipo opcional con valor nil (nulo en Swift).
 - Para obtener el valor del opcional sin su etiqueta opcional, se puede utilizar el: 'if let', '.map' y/o 'Force UnWrap (!)'.
+
+`Colecciones`: es una agrupación de valores.
+- Array: almacena valores del misto tipo en una lista ordenada, el mismo valor puede aparecer varias veces y en posiciones diferentes.
+- Set: nos aseguramos que los valores no sean repetidos pero el orden puede variar.
+- Dictionary: almacenan asociaciones entre keys del mismo tipo y valores del mismo tipo, no tienen un orden en las posiciones.
+-- Cuando pedimos el valor de un Dictionary este es de tipo opcional porque puede ser que el valor del elemento sea nil o que la key ingresada no exista.
