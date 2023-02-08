@@ -54,3 +54,9 @@
 `Métodos`: son lo mismos que las funciones a nivel de sintaxis, la diferencia es que los métodos existen dentro se los tipos.
 - Método de instancia: se debe de crear una instancia para utilizarlo.
 - Método de Tipo: no es necesario instanciar el tipo para utilizarlo, al crear el método debe de iniciar con 'static'.
+
+`Closures`: son bloques de funcionalidad, hay código entre llaves.
+- Los closure son parecidos a las funciones, solo que se crean directo en variables o constantes.
+- SortedBy: ordena un array, acepta un closure que espera dos argumentos del mismo tipo y retorna un booleano, será True si el primer valor debe aparecer antes que el segundo valor y False si es de caso contrario.
+- Se puede utilizar una función dentro de un closure.
+- TrailingClosure: cuando se necesita pasar un closure a una función y es el último parámetro se transforma en un Trailing Closure, el parámetro se convierte en llaves para hacer código y se ejecutara al final de la función, puede haber múltiples parámetros del tipo Closure.
