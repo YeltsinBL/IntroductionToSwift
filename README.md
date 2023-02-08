@@ -50,3 +50,7 @@
 - Observers: observa y responde cada que un valor de la propiedad cambia.
 -- WillSet: antes que el valor de la propiedad cambie.
 -- Didset: cuando el valor de la propiedad a cambiado.
+
+`Métodos`: son lo mismos que las funciones a nivel de sintaxis, la diferencia es que los métodos existen dentro se los tipos.
+- Método de instancia: se debe de crear una instancia para utilizarlo.
+- Método de Tipo: no es necesario instanciar el tipo para utilizarlo, al crear el método debe de iniciar con 'static'.
