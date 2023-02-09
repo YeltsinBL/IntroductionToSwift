@@ -60,3 +60,14 @@
 - SortedBy: ordena un array, acepta un closure que espera dos argumentos del mismo tipo y retorna un booleano, será True si el primer valor debe aparecer antes que el segundo valor y False si es de caso contrario.
 - Se puede utilizar una función dentro de un closure.
 - TrailingClosure: cuando se necesita pasar un closure a una función y es el último parámetro se transforma en un Trailing Closure, el parámetro se convierte en llaves para hacer código y se ejecutara al final de la función, puede haber múltiples parámetros del tipo Closure.
+
+`Enums`: definen un tipo común para un grupo de valores relacionados y permite trabajar con estos valores de una manera segura dentro del código.
+- Los enums son de tipo ValueType, su valor se copia.
+- Con el Switch podemos ejecutar una lógica diferente para los distintos casos que hay en el enum.
+- Protocolo Caselterable: iteramos todos los casos del enum.
+-- Al lado del nombre del enum se debe de agregar: 'CaseIterable'.
+-- Usamos la propiedad 'allCases' (nameEnum.allCases).
+-- Solo se utiliza a partir de la versión Swift 5.2.
+- Associated Value: guarda valores de otro tipo con los casos del enum, al pasarle un valor y guardarlo en una variable o constante se le llama 'Associated Value'.
+-- Son útiles para dar mas información a cada case
+- Raw Values: los casos de enum pueden estar preparados con valores por defecto llamados 'Raw Values' los cuales son del mismo tipo.

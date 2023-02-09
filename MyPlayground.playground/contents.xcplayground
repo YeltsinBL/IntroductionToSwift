@@ -10,5 +10,6 @@
         <page name='Propiedades'/>
         <page name='Metodos'/>
         <page name='Closures'/>
+        <page name='Enums'/>
     </pages>
 </playground>
