@@ -71,3 +71,6 @@
 - Associated Value: guarda valores de otro tipo con los casos del enum, al pasarle un valor y guardarlo en una variable o constante se le llama 'Associated Value'.
 -- Son útiles para dar mas información a cada case
 - Raw Values: los casos de enum pueden estar preparados con valores por defecto llamados 'Raw Values' los cuales son del mismo tipo.
+
+`Herencia`: una clase hereda métodos y propiedades de otra clase para poder sobreescribirla.
+- Las funciones con 'final' no es pueden sobreescribir.
