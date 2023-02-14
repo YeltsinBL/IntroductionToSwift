@@ -81,3 +81,9 @@
 - Los protocolos conforman variables de propiedad o de tipo.
 - También especifica si una propiedad es 'get' o 'set'.
 - Al crear una extensión del protocolo, ya no es necesario volver a implementarlo en una 'class','struct' y 'enum' porque ya lo conforma.
+
+`Genéricos`: el código genético nos permite escribir código mas flexible, funciones reusables y tipos genéricos que acepten cualquier tipo. 
+- En una función genérico el tipo que se agrega entre '<>' debe ser el mismo que está dentro de los parámetros.
+- Los tipos genéricos: son 'class', 'struct' y 'enum' qué pueden trabajar con  cualquier tipo igual que los 'arrays' y 'dictionary'. 
+
+Guía de referencia en el canal de [SwiftBeta](https://www.youtube.com/watch?v=mQTLSf76jS4&list=PLeTOFRUxkMcozbUpMiaHRy8_GjzJ_9tyi&index=1)
