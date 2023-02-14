@@ -12,5 +12,6 @@
         <page name='Closures'/>
         <page name='Enums'/>
         <page name='Herencia'/>
+        <page name='Protocolos'/>
     </pages>
 </playground>

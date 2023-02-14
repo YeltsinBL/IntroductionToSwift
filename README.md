@@ -74,3 +74,10 @@
 
 `Herencia`: una clase hereda métodos y propiedades de otra clase para poder sobreescribirla.
 - Las funciones con 'final' no es pueden sobreescribir.
+
+`Protocolos`: es una interfaz, donde añadimos una serie de requerimientos para todos los tipos que lo conformen.
+- Todo aquel que utilice un protocolo que puede ser una 'class','struct' y 'enum'; debe de implementar lo que esta en su interfaz.
+- Si una clase hereda de otra, primero se pone la clase de la que hereda y luego el protocolo, esto no pasa con las 'struct' que solo se pone el protocolo.
+- Los protocolos conforman variables de propiedad o de tipo.
+- También especifica si una propiedad es 'get' o 'set'.
+- Al crear una extensión del protocolo, ya no es necesario volver a implementarlo en una 'class','struct' y 'enum' porque ya lo conforma.
